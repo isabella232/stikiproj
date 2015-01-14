@@ -1,0 +1,25 @@
+28 Oktober 2014
+1. Perbaikan pada bagian Absen Dosen
+2. perubahan model part page menjadi dropdown
+3. Penambahan tampilan untuk display di monitor Office Boy
+
+Database
+1. Perubahan tipe data iddosen Tabel dosen dari Tinytiny menjadi smallint
+2. Penambahan field PDD varchar(10)
+3. 
+
+18 September 2014
+Update PHP
+AbsensiDosen.php pada Folder stikiproj
+
+Update Class
+terletak pada folder Classes (admin/classes)
+1. absendosen.php
+
+Modul Tambahan:
+1. search.php  ==> terletak di folder admin/moduls
+2. jamsistem.php ==> terletak di folder admin/moduls
+
+DataBase
+1. Tabel Ruangkelas
+   Penambahan Field Kelompok

@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^\$ dashboard.php?m=dashboard [L]
+RewriteRule ^dashboard\.html$ dashboard.php?m=dashboard [L]
+RewriteRule ^ruangkelas\.html$ dashboard.php?m=ruangkelas [L]
+RewriteRule ^jadwalkuliah\.html$ dashboard.php?m=jadwalkuliah [L]
+RewriteRule ^datadosen\.html$ dashboard.php?m=datadosen [L]
+RewriteRule ^matakuliah\.html$ dashboard.php?m=matakuliah [L]
+RewriteRule ^user\.html$ dashboard.php?m=user [L]
+RewriteRule ^absendosen\.html$ dashboard.php?m=absendosen [L]
+RewriteRule ^lap-dosen\.html$ dashboard.php?m=lap-dosen [L]
+RewriteRule ^account\.html$ dashboard.php?m=account [L]
+RewriteRule ^logout\.html$ dashboard.php?logout [L]
+
+</IfModule>

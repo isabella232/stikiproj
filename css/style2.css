@@ -1,0 +1,92 @@
+html, body{
+    margin: 0px;
+}
+
+.row {
+	width: 98%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.row .row {
+	margin: 0 -5px;
+	width: auto;
+	display: inline-block;
+}
+
+.row:after{
+    clear: both;
+}
+
+.column {
+	margin: 0 5px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-LAB{
+    width: 150px;
+    margin: 0 5px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+}
+.col-lg-1 {
+    position: relative;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.col-clear{
+    clear: both;
+}
+.small-box-1, .small-box-2, .small-box-3, .small-box-4, .small-box-LAB {
+    position: relative;
+    display: block;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.ColHeader{
+    width: 98%;
+}
+.small-box-1,.small-box-2, .small-box-3, .small-box-4, .small-box-LAB > .inner {
+    padding: 10px;
+}
+.small-box-1 .onoff, .small-box-2 .onoff,.small-box-3 .onoff, .small-box-4 .onoff, .small-box-LAB .onoff{
+    position: absolute;
+    top: auto;
+    bottom: 30px;
+    right: 5px;
+    z-index: 0;
+    font-size: 28px;
+    color: rgba(255, 0, 0, 0.75);
+}
+.ion-xbox {
+    display: inline-block;
+    font-family: "Ionicons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+}
+.inner h3{
+    color: #FFFFFF;
+    margin: 0px;
+}
+.inner .onoff{
+    
+}
+.kotak{
+    min-height: 300px;
+}
+.bg-green {
+    background-color: #00A65A !important;
+}
+.bg-aqua {
+    background-color: #00C0EF !important;
+}
+#nmdosen{
+    font-family: verdana;
+    font-size: 12px;
+}

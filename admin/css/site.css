@@ -1,0 +1,167 @@
+/* AdminBWiStrap CSS by Barayuda Gautama @barayuda */
+/* Credit : @TwitterBootStrap */
+
+/* general */
+body {padding-top:0px; padding-bottom:20px;}
+
+h1 {padding-bottom:0.2em;}
+
+.meta {color:#999; font-size:.9em; display:block;}
+.meta em {font-style:normal; font-weight:bold;}
+
+/* login */
+#login-page.container {width:320px;}
+
+/* dashboard */
+.summary {display:table; width:100%; padding:0; margin:0 0 20px 0;}
+.summary ul {margin:0; padding:0; overflow:hidden; display:table-row;}
+.summary li {margin:0; padding:19px; display:table-cell; border-right:1px solid #eee;}
+.summary li:last-child {border:none;}
+.summary a {display:block; font-size:1.2em; line-height:1.4em; text-transform:uppercase; color:#000;}
+.summary .count {display:block; font-size:1.75em; font-weight:bold;}
+
+	/* dashboard - ie fixes */
+	.ie7 .summary {display:block;}
+	.ie7 .summary ul {margin:0; padding:0; overflow:hidden; display:block;}
+	.ie7 .summary li {float:left;}
+	
+	.ielt9 .summary .last {border:none;}
+
+/* tasks */
+.tasks {margin:0; padding:0;}
+.tasks li {list-style-type:none; padding-bottom:0.3em;}
+.tasks input {vertical-align:baseline;}
+.tasks .meta {padding-left:18px;}
+.tasks .done {opacity:0.8;}
+
+/* messages */
+.messages {margin:0; padding:0;}
+.messages .messages {padding-top:19px;}
+.messages li {list-style-type:none; padding-bottom:0.3em;}
+.messages .well {padding:19px;}
+.messages .messages .well {border:none; -webkit-box-shadow:none;-moz-box-shadow:none; box-shadow:none; border-left:3px solid #eee;border-left:3px solid rgba(0, 0, 0, 0.05);}
+
+/* blank slate */
+.blank-slate {text-align:center;}
+.blank-text {text-align: left;}
+
+/* files */
+.files li {list-style-type:none;}
+.files .meta {padding-left:18px;}
+
+.zebra-list {margin:0 0 18px 0; padding:0;}
+.zebra-list li {border:1px solid #DDD; padding:8px; border-bottom:none;}
+.zebra-list li:nth-child(odd) {background-color:#F9F9F9;}
+.zebra-list li:first-child {-webkit-border-radius:4px 4px 0 0; -moz-border-radius:4px 4px 0 0; border-radius:4px 4px 0 0;}
+.zebra-list li:last-child {border-bottom:1px solid #DDD; -webkit-border-radius:0 0 4px 4px; -moz-border-radius:0 0 4px 4px; border-radius:0 0 4px 4px;}
+
+/* form */
+#tgllahir { cursor:pointer }
+
+#loading {
+position:absolute;
+bottom:0;
+width:100%; 
+color:#FFFFFF;
+text-align:center;
+padding:8px 0px 8px 0px;
+margin:0px auto;
+background-color:#000000;
+}
+.submenu li{
+    display: inline;
+    padding: 5px;
+}
+.submenu li a{
+    text-decoration: none;
+    background-color:#F9F9F9;
+    padding: 8px;
+}
+.spasi{
+    height: 10px;
+}
+.txjudulmenu{
+    text-align:left;
+}
+.isikonten{
+    text-align:right;
+}
+.txjudulkiri{
+    display:  inline-block;
+    text-align:left;
+}
+#cmdnew,#cmdf5{
+    background-color: #0080C0;
+    border-style: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    width: 75px;
+    margin: 0px;
+    padding: 5px;
+    font-size: 100%;
+    vertical-align: middle;
+    float: right;
+}
+#cmdf5{
+    background-color:#00FF80;
+}
+#txjudulkiri:after{
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+
+#rounded-corner
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 10px;
+	width: 800px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#rounded-corner thead th.rounded-company
+{
+	
+}
+#rounded-corner thead th.rounded-q4
+{
+	
+}
+#rounded-corner th
+{
+	padding: 8px;
+	font-weight: normal;
+	font-size: 13px;
+	color: #039;
+	background: #b9c9fe;
+}
+#rounded-corner td
+{
+	padding: 8px;
+	background: #e8edff;
+	border-top: 1px solid #fff;
+	color: #669;
+}
+#rounded-corner tfoot td.rounded-foot-left
+{
+	background: #e8edff url('table-images/botleft.png') left bottom no-repeat;
+}
+#rounded-corner tfoot td.rounded-foot-right
+{
+	background: #e8edff url('table-images/botright.png') right bottom no-repeat;
+}
+#rounded-corner tbody tr:hover td
+{
+	background: #d0dafd;
+}
+.well {padding-top:1px;}
+#pagging{ float: right; margin-right: 18px; display: inline;}
+.caridata{
+    background:url(../img/cari.png) no-repeat
+}
+#carimk, #caridosen, #cariruang{
+    padding:10px 0 0 45px;
+    border-top:1px solid #e0e0e0
+}
+#pagetextid{width: 50px;}

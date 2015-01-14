@@ -1,0 +1,1 @@
+$(function(){$("#namadsn").autocomplete({source:"admin/moduls/search.php",minLength:1})});

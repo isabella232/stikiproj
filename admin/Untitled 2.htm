@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="NudeSource" />
+    <link rel="stylesheet" href="css/colorbox.css" />
+    <script src="js/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$('.inline').click(function(){
+   alert('pppp'); 
+});
+});
+</script>    
+    
+	<title>Untitled 2</title>
+</head>
+
+<body>
+
+<a href="#coba-edit" class='inline'>Test Saja</a>
+
+<div style='display:none'>
+			<div id='coba-edit' style='padding:10px; background:#fff;'>
+			<p><strong>This content comes from a hidden element on this page.</strong></p>
+			<p>The inline option preserves bound JavaScript events and changes, and it puts the content back where it came from when it is closed.</p>
+			<p><a id="click" href="#" style='padding:5px; background:#ccc;'>Click me, it will be preserved!</a></p>
+			
+			<p><strong>If you try to open a new Colorbox while it is already open, it will update itself with the new content.</strong></p>
+			<p>Updating Content Example:<br />
+			<a class="ajax" href="../content/ajax.html">Click here to load new content</a></p>
+			</div>
+		</div>
+
+</body>
+</html>
